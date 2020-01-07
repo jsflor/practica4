@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1578427369 source:c:\ejercicios\practica4\practica4.cpp
+	<stdio.h>
+	"GestionRutasMes.h"
+	"CalendarioMes.h"
+
+1578427216 c:\ejercicios\practica4\gestionrutasmes.h
+
+1578428158 source:c:\ejercicios\practica4\gestionrutasmes.cpp
+	<stdio.h>
+	"GestionRutasMes.h"
+	"CalendarioMes.h"
+
+1578428185 source:c:\ejercicios\practica4\calendariomes.cpp
+	<stdio.h>
+	"CalendarioMes.h"
+	"GestionRutasMes.h"
+
+1578428158 c:\ejercicios\practica4\calendariomes.h
+	"GestionRutasMes.h"
+

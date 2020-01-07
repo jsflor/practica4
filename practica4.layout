@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="CalendarioMes.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="2879" topLine="121" />
+	</File>
+	<File name="CalendarioMes.h" open="1" top="0" tabpos="3">
+		<Cursor position="535" topLine="3" />
+	</File>
+	<File name="GestionRutasMes.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3021" topLine="98" />
+	</File>
+	<File name="practica4.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="166" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
