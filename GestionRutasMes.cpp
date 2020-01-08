@@ -226,7 +226,6 @@ void GestionRutasMes::EditarRuta(){
 }
 
 void GestionRutasMes::ProgramarCalendarioRuta(){
-    CalendarioMes calendario;
     char ruta;
     char continuar;
     int posicionRuta;
@@ -519,7 +518,7 @@ void GestionRutasMes::InformacionViaje(){
             try{
                 auxOrigenDestino = 0;
                 auxDiaMesAnno = 0;
-                for(int i = 0; i < numeroRutas; i++){
+                for(int i = 0; i < MAX_Rutas; i++){
                     precioTotal = 0;
                     tiempoTotal = 0;
                     if((rutas[i].origenRuta == Pueblos(origen-1)) && (rutas[i].destinoRuta == Pueblos(destino-1))){
