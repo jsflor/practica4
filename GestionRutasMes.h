@@ -42,13 +42,14 @@ typedef struct GestionRutasMes{
     int numeroRutas;
 
     void init();
-    void EditarRuta();
-    void ProgramarCalendarioRuta();
-    void ListarDiasRutaCalendario();
-    void CalendarioMensualTrayecto();
-    void InformacionViaje();
 
     private:
-    void ImprimirPueblo(Pueblos pueblo);
-    int IndiceRuta(char ruta);
+        void EditarRuta();
+        void ProgramarCalendarioRuta();
+        void ListarDiasRutaCalendario();
+        void CalendarioMensualTrayecto();
+        void InformacionViaje();
+
+        void ImprimirPueblo(Pueblos pueblo);
+        int IndiceRuta(char ruta);
 };
