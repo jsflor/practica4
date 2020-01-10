@@ -77,6 +77,61 @@ void GestionRutasMes::init(){
 
     numeroRutas = 0;
     tecla = ' ';
+
+    /* Ayuda para correcion */
+        /* Ruta J */
+            rutas[MAX_Rutas-1].origenRuta = Pueblos(0); /* Alpedrete */
+            rutas[MAX_Rutas-1].destinoRuta = Pueblos(2); /* Galapagar */
+            /* Fechas y tramos */
+            rutas[MAX_Rutas-1].numeroTramos = 2;
+            rutas[MAX_Rutas-1].numeroFechas = 2;
+            /* Tramos */
+            rutas[MAX_Rutas-1].tramos[0].origen = Pueblos(0); /* Alpedrete */
+            rutas[MAX_Rutas-1].tramos[0].destino = Pueblos(1); /* Escorial */
+            rutas[MAX_Rutas-1].tramos[0].duracion = 20; /* Minutos */
+            rutas[MAX_Rutas-1].tramos[0].precio = 5; /* Euros */
+
+            rutas[MAX_Rutas-1].tramos[1].origen = Pueblos(1); /* Escorial */
+            rutas[MAX_Rutas-1].tramos[1].destino = Pueblos(2); /* Galapagar */
+            rutas[MAX_Rutas-1].tramos[1].duracion = 15; /* Minutos */
+            rutas[MAX_Rutas-1].tramos[1].precio = 4; /* Euros */
+            /* Fechas */
+            rutas[MAX_Rutas-1].fechas[0].dia = 15;
+            rutas[MAX_Rutas-1].fechas[0].mes = 2;
+            rutas[MAX_Rutas-1].fechas[0].anno = 2020;
+            rutas[MAX_Rutas-1].fechas[0].horaSalidaOrigen = 5;
+            
+            rutas[MAX_Rutas-1].fechas[1].dia = 25;
+            rutas[MAX_Rutas-1].fechas[1].mes = 2;
+            rutas[MAX_Rutas-1].fechas[1].anno = 2020;
+            rutas[MAX_Rutas-1].fechas[1].horaSalidaOrigen = 5;
+        /* Ruta I */
+            rutas[MAX_Rutas-2].origenRuta = Pueblos(0); /* Alpedrete */
+            rutas[MAX_Rutas-2].destinoRuta = Pueblos(2); /* Galapagar */
+            /* Fechas y tramos */
+            rutas[MAX_Rutas-2].numeroTramos = 2;
+            rutas[MAX_Rutas-2].numeroFechas = 2;
+            /* Tramos */
+            rutas[MAX_Rutas-2].tramos[0].origen = Pueblos(0); /* Alpedrete */
+            rutas[MAX_Rutas-2].tramos[0].destino = Pueblos(9); /* Villalba */
+            rutas[MAX_Rutas-2].tramos[0].duracion = 5; /* Minutos */
+            rutas[MAX_Rutas-2].tramos[0].precio = 2; /* Euros */
+
+            rutas[MAX_Rutas-2].tramos[1].origen = Pueblos(9); /* Villalba */
+            rutas[MAX_Rutas-2].tramos[1].destino = Pueblos(2); /* Galapagar */
+            rutas[MAX_Rutas-2].tramos[1].duracion = 10; /* Minutos */
+            rutas[MAX_Rutas-2].tramos[1].precio = 3; /* Euros */
+            /* Fechas */
+            rutas[MAX_Rutas-2].fechas[0].dia = 5;
+            rutas[MAX_Rutas-2].fechas[0].mes = 2;
+            rutas[MAX_Rutas-2].fechas[0].anno = 2020;
+            rutas[MAX_Rutas-2].fechas[0].horaSalidaOrigen = 5;
+            
+            rutas[MAX_Rutas-2].fechas[1].dia = 15;
+            rutas[MAX_Rutas-2].fechas[1].mes = 2;
+            rutas[MAX_Rutas-2].fechas[1].anno = 2020;
+            rutas[MAX_Rutas-2].fechas[1].horaSalidaOrigen = 5;
+    /* Fin ayuda para correccion */
     
     /* Menu principal */
     do{
