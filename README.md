@@ -36,4 +36,4 @@ conveniente. En la realización de esta práctica se debe reutilizar en la medid
 posible el código fuente ya realizado para la tercera práctica, que se redefinirá como
 un TAD “CalendarioMes”.
 
-![alt text](https://github.com/sebastianflor/practica4/master/assets/pic.png)
+![alt text](https://github.com/sebastianflor/practica4/blob/master/assets/pic.png)
