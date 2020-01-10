@@ -8,7 +8,7 @@ void CalendarioMes::ImprimirMes(int mes){
         printf("Enero");
         break;
     case 2:
-        printf("Febero");
+        printf("Febrero");
         break;
     case 3:
         printf("Marzo");

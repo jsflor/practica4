@@ -105,6 +105,9 @@ void GestionRutasMes::init(){
             rutas[MAX_Rutas-1].fechas[1].mes = 2;
             rutas[MAX_Rutas-1].fechas[1].anno = 2020;
             rutas[MAX_Rutas-1].fechas[1].horaSalidaOrigen = 5;
+
+            /* Incrementar contador */
+            numeroRutas = numeroRutas + 1;
         /* Ruta I */
             rutas[MAX_Rutas-2].origenRuta = Pueblos(0); /* Alpedrete */
             rutas[MAX_Rutas-2].destinoRuta = Pueblos(2); /* Galapagar */
@@ -131,6 +134,9 @@ void GestionRutasMes::init(){
             rutas[MAX_Rutas-2].fechas[1].mes = 2;
             rutas[MAX_Rutas-2].fechas[1].anno = 2020;
             rutas[MAX_Rutas-2].fechas[1].horaSalidaOrigen = 5;
+
+            /* Incrementar contador */
+            numeroRutas = numeroRutas + 1;
     /* Fin ayuda para correccion */
     
     /* Menu principal */
