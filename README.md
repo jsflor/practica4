@@ -1,7 +1,5 @@
 # Fundamentos Programación UNED
 
-![alt text](https://github.com/sebastianflor/practica4/blob/master/assets/pic1.png)
-
 Realizar un programa en C+/- para gestionar las rutas mensuales de una compañía
 de autobuses. Las distintas rutas se realizarán entre una lista de pueblos que, para
 simplificar el programa, será un tipo enumerado con los nombres de cada pueblo
