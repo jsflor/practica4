@@ -1,5 +1,7 @@
 # Fundamentos Programación UNED
 
+![alt text](https://github.com/sebastianflor/practica4/blob/master/assets/pic1.png)
+
 Realizar un programa en C+/- para gestionar las rutas mensuales de una compañía
 de autobuses. Las distintas rutas se realizarán entre una lista de pueblos que, para
 simplificar el programa, será un tipo enumerado con los nombres de cada pueblo
@@ -35,5 +37,7 @@ las correspondientes funciones, procedimientos y TADs que el alumno crea
 conveniente. En la realización de esta práctica se debe reutilizar en la medida de lo
 posible el código fuente ya realizado para la tercera práctica, que se redefinirá como
 un TAD “CalendarioMes”.
+
+![alt text](https://github.com/sebastianflor/practica4/blob/master/assets/pic2.png)
 
 ![alt text](https://github.com/sebastianflor/practica4/blob/master/assets/pic.png)
